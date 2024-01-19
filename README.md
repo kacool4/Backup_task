@@ -6,6 +6,13 @@
  - Last Update : 18-01-2024
  - Version: 1.2
 
+## Potential Issue that may occur
+```
+In case you see that the script is not running or throws erros please download the Zip file.
+Sometimes Github adds weird characters in the code that cause script not to run.
+Thank you.
+```
+
  ## Description 
    Script is making an exact copy of a source location to destination location.
 
@@ -43,6 +50,8 @@ Apart from the -source and -destination arguments you can use also the following
 
 # Troubleshooting
 
+
 The script is written in a way that can predict missing arguments. For Example in case you add only source folder it will throw an error that you forgot the destination folder
 
  ![Alt text](/screenshots/no_dest_folder.png?raw=true "Error")
+
