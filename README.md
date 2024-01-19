@@ -48,10 +48,15 @@ Apart from the -source and -destination arguments you can use also the following
 
  ![Alt text](/screenshots/triggers.png?raw=true "Arguments")
 
-# Troubleshooting
+# Checks
 
 
 The script is written in a way that can predict missing arguments. For Example in case you add only source folder it will throw an error that you forgot the destination folder
 
  ![Alt text](/screenshots/no_dest_folder.png?raw=true "Error")
+
+ Other checks that the script does are :
+  -  If the source folder does not exist
+  -  If you put destination folder only\
+  -  If you don't put any argument
 
